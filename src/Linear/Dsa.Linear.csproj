@@ -13,4 +13,8 @@
     <Folder Include="Stack\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="VP.DotNet.Assist" Version="1.0.0" />
+  </ItemGroup>
+
 </Project>
