@@ -1,10 +1,4 @@
 ﻿namespace Dsa.Linear.UnitTests.LRUCache;
-
-using Dsa.Linear.LRUCache;
-using FluentAssertions;
-using System;
-using Xunit;
-
 public class GetShould
 {
 	[Fact]

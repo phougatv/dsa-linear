@@ -1,10 +1,6 @@
 ﻿namespace Dsa.Linear.UnitTests.LinkedList.DoublyCircular;
 
 using Dsa.Linear.LinkedList.Doubly;
-using FluentAssertions;
-using System;
-using Xunit;
-using static CommonSetup;
 
 public class RemoveHeadShould
 {

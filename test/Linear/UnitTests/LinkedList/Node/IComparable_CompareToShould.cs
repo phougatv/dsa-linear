@@ -1,9 +1,6 @@
 ﻿namespace Dsa.Linear.UnitTests.LinkedList.Node;
 
 using Dsa.Linear.LinkedList.Doubly;
-using FluentAssertions;
-using System;
-using Xunit;
 
 public class IComparable_CompareToShould
 {

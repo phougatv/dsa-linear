@@ -1,12 +1,4 @@
 ﻿namespace Dsa.Linear.UnitTests.LRUCache;
-
-using Dsa.Linear.LRUCache;
-using FluentAssertions;
-using System;
-using System.Linq;
-using Xunit;
-using static CommonSetup;
-
 public class SetShould
 {
 	[Fact]

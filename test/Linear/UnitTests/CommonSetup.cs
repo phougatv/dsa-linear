@@ -1,7 +1,4 @@
 ﻿namespace Dsa.Linear.UnitTests;
-using System;
-using System.Linq;
-
 internal class CommonSetup
 {
 	/// <summary>
