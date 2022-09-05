@@ -23,8 +23,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Generics\Stack\" />
-    <Folder Include="Generics\Queue\" />
+    <Folder Include="Generics\StackTests\" />
+    <Folder Include="Generics\QueueTests\" />
     <Folder Include="Stack\" />
     <Folder Include="Queue\" />
   </ItemGroup>
