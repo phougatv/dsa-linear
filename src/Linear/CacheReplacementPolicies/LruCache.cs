@@ -1,4 +1,8 @@
 ﻿namespace Dsa.Linear.CacheReplacementPolicies;
+/// <summary>
+/// Lru cache class.
+/// For details, visit - https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_recently_used_(LRU)
+/// </summary>
 public sealed class LruCache : CacheReplacementPolicy
 {
 	public LruCache(Int32 capacity)
@@ -7,9 +11,7 @@ public sealed class LruCache : CacheReplacementPolicy
 
 	public override Int32 Get(Int32 key)
 	{
-		if (!_keyNodeMap.TryGetValue(key, out var cacheNode))
-			return -1;
-
+		if (!_keyNodeMap.TryGetValue(key, out var cacheNode)) return -1;
 		ReorderCache(key, cacheNode);
 		return cacheNode.Value;
 	}
